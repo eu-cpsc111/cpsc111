@@ -18,7 +18,7 @@ Why have style guidelines? A consistent code style helps multiple developers rea
 
 There may be objective reasoning behind certain guidelines, but many are subjective. Different developers have different opinions and preferences. There is no "correct" set of style guidelines. It is more important for a team to aim for consistency than to follow individual preferences.
 
-Why have style guidelines for a course? This course is not a team or corporate environment. Worrying about such materials may seem trivial. There are two reasons for doing so:
+Why have style guidelines for a course? This course is not a team or corporate environment. Worrying about such matters may seem trivial. There are two reasons for doing so:
 
 - expose students to the real-world concept of style guidelines.
 - encourage attention to detail when writing code.
