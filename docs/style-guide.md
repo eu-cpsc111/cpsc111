@@ -286,6 +286,8 @@ Most text editors support [EditorConfig](https://editorconfig.org/) as a way to 
 
 When using Visual Studio, you can trigger a document format command by opening the **Feature Search** window using `Ctrl` + `Q`, then searching for the **Format Document** command.
 
+For a list of C++ EditorConfig properties, see [here](https://learn.microsoft.com/en-us/visualstudio/ide/cpp-editorconfig-properties?view=vs-2019).
+
 ## Additional Reading
 
 The following links provide are examples of other style guidelines in the wild:
