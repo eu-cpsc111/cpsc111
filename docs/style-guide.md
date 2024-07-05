@@ -189,7 +189,7 @@ int theTimeItTakesInMillisecondsToRunALap;
 A common exception for this guideline is for variables used as an index or counter variable, often named `i` and often in a `for` loop. This is generally considered acceptable and [idomatic](https://en.wikipedia.org/wiki/Programming_idiom).
 
 ```
-for (int i = i; i < items.size(); ++i) {
+for (int i = 0; i < items.size(); ++i) {
     // ...
 }
 ```
