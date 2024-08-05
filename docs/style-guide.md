@@ -2,7 +2,7 @@
 
 ## Expectations
 
-Code you write for assignments submitted via GitHub should adhere to the guidelines outlined below. zyBook activities, challenges, and labs are **not** evaluated based on these guidelines.
+Code written for assignments submitted via GitHub must adhere to the guidelines outlined below. zyBook activities, challenges, and labs are **not** evaluated based on these guidelines, though it is still recommended.
 
 There is room for minor deviation from the guidelines. It is understood that a student may miss an item now and then. Sometimes guidelines are broken for other reasons depending on the situation. This is fine. They are _guidelines_ after all, not laws. However, major deviations or continually ignoring guideliness will lead to penalties during grading.
 
@@ -13,7 +13,7 @@ If something is not covered by these guidelines, use your best judgement. There 
 Why have style guidelines? A consistent code style helps multiple developers read, write, and update code within shared projects. Companies or teams usually have some variation of coding style guidlines. Benefits of this include:
 
 - keeping focus on semantics and logic, not on formatting.
-- consistency, eliminiating surprises and improving readability.
+- consistency, eliminating surprises, and improving readability.
 - helping avoid common coding pitfalls.
 
 There may be objective reasoning behind certain guidelines, but many are subjective. Different developers have different opinions and preferences. There is no "correct" set of style guidelines. It is more important for a team to aim for consistency than to follow individual preferences.
@@ -23,7 +23,7 @@ Why have style guidelines for a course? This course is not a team or corporate e
 - expose students to the real-world concept of style guidelines.
 - encourage attention to detail when writing code.
 
-The guidelines for this course are based on those used by the textbook (see the section on style guidelines in module 2). Some guidelines have been omitted or slightly modified. The goal is some level of alignment between code a student interactives with in the textbook and code a student writes for programming assignments.
+The guidelines for this course are based on those used by the textbook (see the section on style guidelines in module 2). Some guidelines have been omitted or slightly modified. The goal here is some level of alignment between code a student interacts with in the textbook and code a student writes for programming assignments.
 
 ## Guidelines
 
@@ -39,6 +39,7 @@ Each statement usually appears on its own line.
 x = 25;
 y = x + 1;
 ```
+
 ```
 // DON'T:
 
@@ -46,7 +47,7 @@ x = 25;   y = x + 1;
 if (x == 5) { y = 14; }
 ```
 
-Use **four** spaces for indentation. _Tip: enable showing shitespace in your text editor (Visual Studio [example](https://stackoverflow.com/questions/6255839/show-space-tab-crlf-characters-in-editor-of-visual-studio))._
+Use **four** _spaces_ for indentation. _Tip: enable showing shitespace in your text editor (Visual Studio [example](https://stackoverflow.com/questions/6255839/show-space-tab-crlf-characters-in-editor-of-visual-studio))._
 
 ```
 // DO
@@ -56,6 +57,7 @@ if (a < b) {
     y = x + 1;
 }
 ```
+
 ```
 // DON'T
 
@@ -83,6 +85,7 @@ while (laserPercent < 100)
 if (targetAquired)
     fireLaser(x, y);
 ```
+
 ```
 // DON'T:
 
@@ -142,6 +145,7 @@ void MyFunction()
     // ...
 }
 ```
+
 ```
 // DON'T:
 
@@ -161,6 +165,7 @@ int numItems;
 double boxSize;
 string userName;
 ```
+
 ```
 // DON'T
 
@@ -178,6 +183,7 @@ int weight;
 int heightInFeet;
 int timeMs;
 ```
+
 ```
 // DON'T:
 
@@ -201,6 +207,7 @@ Constants use upper case and underscores.
 
 const int MAX_WEIGHT = 300;
 ```
+
 ```
 // DON'T:
 
@@ -215,6 +222,7 @@ Function names use PascalCase.
 
 void PrintHello();
 ```
+
 ```
 // DON'T:
 
@@ -224,7 +232,7 @@ void print_hello();
 
 ### Comments
 
-You must have appropriately commented code in your assignment submissions. Comments should describe code at a high level. Use them to communicate intent and clarify why certain code was written. They are an aid to other developers (and your future self); compilers ignore them.
+Code must be appropriately commented in assignment submissions. Comments should describe code at a high level. Use them to communicate intent and clarify why certain code was written. They are an aid to other developers (and your future self); compilers ignore them.
 
 Use comments to highlight the purpose or intent of logically grouped blocks of code.
 
@@ -282,9 +290,9 @@ int DoTheThing(int param1, int param2);
 
 ## EditorConfig
 
-Most text editors support [EditorConfig](https://editorconfig.org/) as a way to automatically apply style preferences to text documents. Assignment repositories in this course come with an `.editorconfig` file containing rules that align to the course guidelines.
+Most text editors support [EditorConfig](https://editorconfig.org/) as a way to automatically apply style preferences to text documents. Assignment repositories in this course come with an `.editorconfig` file containing rules that align to the course guidelines. These are very useful, but not exhaustive, so attention must still be paid to ensure code aligns with style guidelines.
 
-When using Visual Studio, you can trigger a document format command by opening the **Feature Search** window using `Ctrl` + `Q`, then searching for the **Format Document** command.
+When using Visual Studio, a document format command can be triggered by opening the **Feature Search** window using `Ctrl` + `Q`, then searching for the **Format Document** command. Other editors may have their own formatting features.
 
 For a list of C++ EditorConfig properties, see [here](https://learn.microsoft.com/en-us/visualstudio/ide/cpp-editorconfig-properties?view=vs-2019).
 
@@ -295,3 +303,4 @@ The following links provide are examples of other style guidelines in the wild:
 - [Programming: Principles and Practice style guide](https://www.stroustrup.com/Programming/PPP-style.pdf) - style guidelines of a popular C++ textbook written by Bjarne Stroustrup, the creator of C++.
 - [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) - more than just style guidelines, includes best practices on using C++.
 - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) - style guidelines as used by Google. For a good example of how developers can disagree on style guidelines, search the web a bit and you'll find varying opinions on this particular style guide.
+- [Coding Standard for Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine?application_version=5.4) - used by Epic Games for the Unreal Engine.
