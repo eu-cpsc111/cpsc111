@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+,24,25,26,27,28,29,30,31</data>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>4,4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes/>
+      <pos x="200" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>4-bit input representing a binary number to convert to BCD</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>In</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>4-bit BCD output</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Out</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>4-bit carry from the BCD conversion</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Carry</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="460" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Optional fifth bit to use for carry bit.</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Carry_in</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="220" y="300"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="300" y="320"/>
+      <p2 x="380" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="320"/>
+      <p2 x="460" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="320"/>
+      <p2 x="220" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="340"/>
+      <p2 x="240" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="340"/>
+      <p2 x="180" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="360"/>
+      <p2 x="460" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="300"/>
+      <p2 x="220" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="340"/>
+      <p2 x="400" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="320"/>
+      <p2 x="180" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="340"/>
+      <p2 x="200" y="380"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
