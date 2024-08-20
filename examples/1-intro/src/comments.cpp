@@ -15,6 +15,9 @@ int main()
     comment
     */
 
+    /* Mult line
+    comment */
+
     /* Multi line comment, but on single line */
 
 // comment
