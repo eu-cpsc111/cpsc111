@@ -6,9 +6,9 @@ In a terminal window, execute the following command:
 cmake --version
 ```
 
-If CMake is installed correctly, you will see which version of CMake you have installed. If you see this, you are good to go. No further action is needed.
+If CMake is installed correctly, this command will display the version of CMake you have installed. If that is the case, you are good to go. No further action is needed.
 
-If instead you get an error that says something like "command not found", then you need to install CMake.
+If you get an error that says something like "command not found", then you need to install CMake.
 
 ## Installing CMake
 
@@ -16,9 +16,8 @@ There are multiple ways to do this. Two options are shown below. If you don't kn
 
 ### 1. Manual Install
 
-- Go to https://cmake.org/download/.
-- Download the correct file from the **Binary distributions** section. This will be named something like `cmake-x.xx.x-macosxx-universal.dmg`.
-- Open the downloaded file and install the program (drag CMake into the Applications folder).
+- Download [cmake-3.30.3-macos-universal.dmg](https://github.com/Kitware/CMake/releases/download/v3.30.3/cmake-3.30.3-macos-universal.dmg) (or go to the CMake [download page](https://cmake.org/download/) and select the appropriate file for your Mac).
+- Open the `.dmg` file once it finishes downloading and drag the CMake app into the Applications folder.
 - Open a terminal window and execute the following command:
 
 ```
