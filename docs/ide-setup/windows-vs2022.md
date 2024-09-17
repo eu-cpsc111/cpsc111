@@ -55,3 +55,25 @@ Click the green play button in the toolbar to build and run the program.
 ![](./img/win-vs22-play-button.png)
 
 If the button does not say `hello-world`, click the arrow on the right side of the button and select it from the list.
+
+## Pushing Changes to GitHub
+
+After you make changes to files in your local repository, you can create a commit using the **Git Changes** panel in Visual Studio.
+
+![](./img/win-vs22-git-commit.png)
+
+Enter a commit message in the text box and click the **Commit All** button.
+
+This creates a commit in your local repository. You must push those changes to GitHub. Click the **Sync** button to do this.
+
+![](./img/win-vs22-git-sync.png)
+
+You can confirm your commits have been properly pushed to GitHub by viewing the **Commits** list in your GitHub repository.
+
+![](./img/github-commits-button.png)
+
+Your latest commit should appear in the list. The commit should also show a green check mark to indicate that the automated tests have passed.
+
+![](./img/github-commits-list.png)
+
+If the commit has a red "X" instead of green checkmark, then the automated tests did not pass. You can click on the status symbol to get more details and view the results of the automated tests.

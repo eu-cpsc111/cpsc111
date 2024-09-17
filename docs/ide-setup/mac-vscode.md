@@ -124,3 +124,25 @@ If the build succeeds, you will see something like "Build finished with exit cod
 Once the build succeeds, you can run the program by clicking the play button at the bottom of the VS Code window.
 
 ![](./img/mac-vscode-run.png)
+
+## Pushing Changes to GitHub
+
+After you make changes to files in your local repository, you can create a commit using the **Source Control** panel in VS Code.
+
+![](./img/mac-vscode-git-commit.png)
+
+Enter a commit message in the text box and click the **Commit** button. If prompted, you can choose the option to commit all changes.
+
+This creates a commit in your local repository. You must push those changes to GitHub. Click the **Sync Changes** button to do this.
+
+![](./img/mac-vscode-git-sync.png)
+
+You can confirm your commits have been properly pushed to GitHub by viewing the **Commits** list in your GitHub repository.
+
+![](./img/github-commits-button.png)
+
+Your latest commit should appear in the list. The commit should also show a green check mark to indicate that the automated tests have passed.
+
+![](./img/github-commits-list.png)
+
+If the commit has a red "X" instead of green checkmark, then the automated tests did not pass. You can click on the status symbol to get more details and view the results of the automated tests.
