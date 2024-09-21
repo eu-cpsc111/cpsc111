@@ -40,11 +40,29 @@ You can select where you want to clone the repository to on your local computer 
 
 ![](./img/win-vs22-github-clone.png)
 
+If this window does allow you to clone any repositories, go back to your repository in GitHub and copy the repository URL:
+
+![](./img/win-vs22-git-clone-alt.png)
+
+Go back to Visual Studio and paste the repository URL in the **Clone a repository** window (close the **Open from GitHub** window first):
+
+![](./img/win-vs22-git-clone-alt2.png)
+
 Once the repository is cloned, open the **Solution Explorer** and double-click the **Folder View** item in the list.
 
 ![](./img/win-vs22-folder-view.png)
 
 After the folder loads in Visual Studio, the **Solution Explorer** will show a list of files within the repository on your local PC.
+
+## Fix Git identity
+
+In Visual Studio, open **Git** -> **Settings** from the top menu.
+
+Go to **Source Control** -> **Git Repository Settings** -> **General**. Update the **User name** and **Email** fields to match your GitHub account.
+
+![](./img/win-vs22-git-identity.png)
+
+Save the changes and restart Visual Studio.
 
 ## Build and run
 
