@@ -1,0 +1,16 @@
+x = GenerateRandomNum()
+y = GenerateRandomNum()
+
+actualAnswer = x + y
+isCorrect = false
+
+WHILE (!isCorrect)
+
+    Display the math problem to the user.
+    Read in the users answer.
+    
+    isCorrect = userAnswer == actualAnswer
+    IF isCorrect
+        Display message telling user they are correct.
+    ELSE
+        Display message telling user they are not correct.
