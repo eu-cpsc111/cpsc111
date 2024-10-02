@@ -19,7 +19,7 @@ The program must:
   - `h` or `H` for hard compound.
   - If the user inputs anything else, display an error message and exit the program.
 - Prompt the user to enter the total number of laps in the race.
-- Calculate and display how many sets of tires is needed for the race.
+- Calculate and display how many sets of tires are needed for the race.
 
 Here is an example of what the program will look like if the user selects a soft compound tire for a race with 21 laps:
 
