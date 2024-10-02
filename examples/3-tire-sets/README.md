@@ -38,7 +38,7 @@ Additional requirements:
 
 - Use named constants to store how many laps can be done in each compound.
 - Use a switch statement to determine the number of laps per tire set based on the user's input.
-- Use `return 1` to exit the program early.
+- Use `return 1;` to exit the program early.
 - Optional: use the `double` data type to avoid integer division when computing the number of tire sets required.
 - Optional: use the `ceil()` function when computing the number of tire sets required (a partial number of tire sets isn't valid for this program). You'll have to include the `<cmath>` header to get access to the `ceil()` function.
 
