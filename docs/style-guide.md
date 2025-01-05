@@ -4,13 +4,13 @@
 
 Code written for assignments submitted via GitHub must adhere to the guidelines outlined below. zyBook activities, challenges, and labs are **not** evaluated based on these guidelines, though it is still recommended.
 
-There is room for minor deviation from the guidelines. It is understood that a student may miss an item now and then. Sometimes guidelines are broken for other reasons depending on the situation. This is fine. They are _guidelines_ after all, not laws. However, major deviations or continually ignoring guideliness will lead to penalties during grading.
+There is room for minor deviation from the guidelines. It is understood that a student may miss an item now and then. Sometimes guidelines are broken for other reasons depending on the situation. This is fine. They are _guidelines_ after all, not laws. However, major deviations or continually ignoring guidelines will lead to penalties during grading.
 
 If something is not covered by these guidelines, use your best judgement. There is no penalty for styling choices outside these guidelines.
 
 ## Rationale
 
-Why have style guidelines? A consistent code style helps multiple developers read, write, and update code within shared projects. Companies or teams usually have some variation of coding style guidlines. Benefits of this include:
+Why have style guidelines? A consistent code style helps multiple developers read, write, and update code within shared projects. Companies or teams usually have some variation of coding style guidelines. Benefits of this include:
 
 - keeping focus on semantics and logic, not on formatting.
 - consistency, eliminating surprises, and improving readability.
@@ -47,7 +47,7 @@ x = 25;   y = x + 1;
 if (x == 5) { y = 14; }
 ```
 
-Use **four** _spaces_ for indentation. _Tip: enable showing shitespace in your text editor (Visual Studio [example](https://stackoverflow.com/questions/6255839/show-space-tab-crlf-characters-in-editor-of-visual-studio))._
+Use **four** _spaces_ for indentation. _Tip: enable showing whitespace in your text editor (Visual Studio [example](https://stackoverflow.com/questions/6255839/show-space-tab-crlf-characters-in-editor-of-visual-studio))._
 
 ```
 // DO
@@ -81,8 +81,8 @@ int laserPercent = 0;
 while (laserPercent < 100)
     laserPercent = CheckLaserChargePercent(x, y);
 
-// Fire laser only if target aquired to avoid malfunction
-if (targetAquired)
+// Fire laser only if target acquired to avoid malfunction
+if (targetAcquired)
     fireLaser(x, y);
 ```
 
@@ -94,7 +94,7 @@ int y = originY + height;
 int laserPercent = 0;
 while (laserPercent < 100)
     laserPercent = CheckLaserChargePercent(x, y);
-if (targetAquired)
+if (targetAcquired)
     fireLaser(x, y);
 ```
 
@@ -192,7 +192,7 @@ int b;
 int theTimeItTakesInMillisecondsToRunALap;
 ```
 
-A common exception for this guideline is for variables used as an index or counter variable, often named `i` and often in a `for` loop. This is generally considered acceptable and [idomatic](https://en.wikipedia.org/wiki/Programming_idiom).
+A common exception for this guideline is for variables used as an index or counter variable, often named `i` and often in a `for` loop. This is generally considered acceptable and [idiomatic](https://en.wikipedia.org/wiki/Programming_idiom).
 
 ```
 for (int i = 0; i < items.size(); ++i) {
@@ -273,7 +273,7 @@ for (int i = 0; i < MAX_TRIES; ++i)
 }
 ```
 
-Use comments above function delcarations to document their purpose, inputs, and outputs. If the declaration appears in a header file, put the comment in the header file. Do not repeat the comment in both the declaration and definition without reason.
+Use comments above function declarations to document their purpose, inputs, and outputs. If the declaration appears in a header file, put the comment in the header file. Do not repeat the comment in both the declaration and definition without reason.
 
 Use the following format for documenting functions:
 
