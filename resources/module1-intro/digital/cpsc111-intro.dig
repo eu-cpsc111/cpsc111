@@ -6,7 +6,7 @@
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes/>
-      <pos x="-640" y="100"/>
+      <pos x="-780" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -16,7 +16,7 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="-880" y="80"/>
+      <pos x="-1020" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -26,7 +26,7 @@
           <string>B</string>
         </entry>
       </elementAttributes>
-      <pos x="-880" y="120"/>
+      <pos x="-1020" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -36,7 +36,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-800" y="80"/>
+      <pos x="-940" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -46,7 +46,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-800" y="240"/>
+      <pos x="-940" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>XOr</elementName>
@@ -56,7 +56,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-800" y="380"/>
+      <pos x="-940" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -70,7 +70,7 @@
           <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="-880" y="240"/>
+      <pos x="-1020" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -80,7 +80,7 @@
           <string>B</string>
         </entry>
       </elementAttributes>
-      <pos x="-880" y="280"/>
+      <pos x="-1020" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -94,7 +94,7 @@
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-798" y="39"/>
+      <pos x="-938" y="39"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -108,7 +108,7 @@
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-798" y="200"/>
+      <pos x="-938" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -122,7 +122,7 @@
           <boolean>false</boolean>
         </entry>
       </elementAttributes>
-      <pos x="-791" y="341"/>
+      <pos x="-931" y="341"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -132,7 +132,7 @@
           <string>A</string>
         </entry>
       </elementAttributes>
-      <pos x="-880" y="380"/>
+      <pos x="-1020" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -142,17 +142,17 @@
           <string>B</string>
         </entry>
       </elementAttributes>
-      <pos x="-880" y="420"/>
+      <pos x="-1020" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes/>
-      <pos x="-640" y="260"/>
+      <pos x="-780" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes/>
-      <pos x="-640" y="400"/>
+      <pos x="-780" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -216,7 +216,7 @@
           <string>Boolean Logic</string>
         </entry>
       </elementAttributes>
-      <pos x="-920" y="-60"/>
+      <pos x="-1060" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -244,7 +244,7 @@
           <string>Boolean Values</string>
         </entry>
       </elementAttributes>
-      <pos x="-1700" y="-60"/>
+      <pos x="-1980" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -254,7 +254,7 @@
           <string>In</string>
         </entry>
       </elementAttributes>
-      <pos x="-1620" y="80"/>
+      <pos x="-1900" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -264,7 +264,7 @@
           <string>Out</string>
         </entry>
       </elementAttributes>
-      <pos x="-1500" y="80"/>
+      <pos x="-1780" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -443,7 +443,7 @@ T or F
 ON or OFF</string>
         </entry>
       </elementAttributes>
-      <pos x="-1560" y="200"/>
+      <pos x="-1840" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
@@ -2680,8 +2680,8 @@ ON or OFF</string>
       <p2 x="5140" y="960"/>
     </wire>
     <wire>
-      <p1 x="-720" y="260"/>
-      <p2 x="-640" y="260"/>
+      <p1 x="-860" y="260"/>
+      <p2 x="-780" y="260"/>
     </wire>
     <wire>
       <p1 x="4720" y="260"/>
@@ -2764,8 +2764,8 @@ ON or OFF</string>
       <p2 x="2260" y="140"/>
     </wire>
     <wire>
-      <p1 x="-720" y="400"/>
-      <p2 x="-640" y="400"/>
+      <p1 x="-860" y="400"/>
+      <p2 x="-780" y="400"/>
     </wire>
     <wire>
       <p1 x="60" y="400"/>
@@ -2816,12 +2816,12 @@ ON or OFF</string>
       <p2 x="1580" y="720"/>
     </wire>
     <wire>
-      <p1 x="-880" y="80"/>
-      <p2 x="-800" y="80"/>
+      <p1 x="-1020" y="80"/>
+      <p2 x="-940" y="80"/>
     </wire>
     <wire>
-      <p1 x="-1620" y="80"/>
-      <p2 x="-1500" y="80"/>
+      <p1 x="-1900" y="80"/>
+      <p2 x="-1780" y="80"/>
     </wire>
     <wire>
       <p1 x="5140" y="1040"/>
@@ -2872,8 +2872,8 @@ ON or OFF</string>
       <p2 x="2280" y="600"/>
     </wire>
     <wire>
-      <p1 x="-880" y="280"/>
-      <p2 x="-800" y="280"/>
+      <p1 x="-1020" y="280"/>
+      <p2 x="-940" y="280"/>
     </wire>
     <wire>
       <p1 x="4640" y="280"/>
@@ -3000,8 +3000,8 @@ ON or OFF</string>
       <p2 x="3420" y="100"/>
     </wire>
     <wire>
-      <p1 x="-720" y="100"/>
-      <p2 x="-640" y="100"/>
+      <p1 x="-860" y="100"/>
+      <p2 x="-780" y="100"/>
     </wire>
     <wire>
       <p1 x="4760" y="100"/>
@@ -3040,8 +3040,8 @@ ON or OFF</string>
       <p2 x="540" y="420"/>
     </wire>
     <wire>
-      <p1 x="-880" y="420"/>
-      <p2 x="-800" y="420"/>
+      <p1 x="-1020" y="420"/>
+      <p2 x="-940" y="420"/>
     </wire>
     <wire>
       <p1 x="2220" y="680"/>
@@ -3204,8 +3204,8 @@ ON or OFF</string>
       <p2 x="2480" y="240"/>
     </wire>
     <wire>
-      <p1 x="-880" y="240"/>
-      <p2 x="-800" y="240"/>
+      <p1 x="-1020" y="240"/>
+      <p2 x="-940" y="240"/>
     </wire>
     <wire>
       <p1 x="1260" y="240"/>
@@ -3248,8 +3248,8 @@ ON or OFF</string>
       <p2 x="2080" y="120"/>
     </wire>
     <wire>
-      <p1 x="-880" y="120"/>
-      <p2 x="-800" y="120"/>
+      <p1 x="-1020" y="120"/>
+      <p2 x="-940" y="120"/>
     </wire>
     <wire>
       <p1 x="1260" y="120"/>
@@ -3296,8 +3296,8 @@ ON or OFF</string>
       <p2 x="5160" y="1020"/>
     </wire>
     <wire>
-      <p1 x="-880" y="380"/>
-      <p2 x="-800" y="380"/>
+      <p1 x="-1020" y="380"/>
+      <p2 x="-940" y="380"/>
     </wire>
     <wire>
       <p1 x="5120" y="700"/>
@@ -3936,12 +3936,12 @@ ON or OFF</string>
       <p2 x="240" y="320"/>
     </wire>
     <wire>
-      <p1 x="3700" y="640"/>
-      <p2 x="3700" y="700"/>
-    </wire>
-    <wire>
       <p1 x="1140" y="100"/>
       <p2 x="1140" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="3700" y="640"/>
+      <p2 x="3700" y="700"/>
     </wire>
     <wire>
       <p1 x="4600" y="800"/>
