@@ -1,4 +1,4 @@
-# Visual Studio on Windows
+# Visual Studio Code on Windows
 
 ## Important Note
 
