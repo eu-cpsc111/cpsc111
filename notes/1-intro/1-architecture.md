@@ -3,26 +3,28 @@
 ## Highlights
 
 - A digital computer fundamentally operates using Boolean logic, 0s and 1s, electronic circuits, and transistors.
-- 
+
 - Everything you do on a computer must be represented as a discrete number. This means all instructions sent to the CPU and all data that is processed must be encoded as a (binary) number.
 
 - Concept of abstraction is everywhere in computer science!
 
 - Main components of a CPU:
-  - CU (control unit) - fetches and decodes instructions and schedules them for execution.
+  - CU (control unit) - coordinates CPU operations; decodes instructions and schedules them for execution.
   - ALU (arithmetic logic unit) - executions mathematical and logical calculations.
   - Registers - stores pieces of data being used by instructions that are being executed. Volatile.
   - Cache - storage area inside CPU used for quick access to repeatedly used data. Not controlled by programmers. Volatile.
 
 - Main components of a computer system:
   - CPU - brain of the computer. Executes instructions.
-  - RAM - main memory location. Volatile. All programs and data must be loaded into RAM before the CPU can use it.
+  - RAM - main memory location. All programs and data must be loaded into RAM before the CPU can use it. Volatile.
   - I/O - input and output devices (audio, video, keyboards, mice, controllers, etc.).
   - storage (e.g., SSD, HDD, removable storage) - **non-volatile** storage location for operating system, applications, and data.
   - clock - synchronizes and determines rate of instruction execution.
   - bus - hooks different components together and allows them to communicate.
 
-- Volatile memory must be powered at all times; non-volatile memory retains data even if not powered.
+- Volatile vs non-volatile memory:
+  - Volatile memory must be powered at all times; stored data is lost when device is powered off.
+  - Non-volatile memory retains data even when not powered.
 
 ![](./img/1-arch.svg)
 
