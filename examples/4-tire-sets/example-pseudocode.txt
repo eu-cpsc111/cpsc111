@@ -1,23 +1,23 @@
-Display the tire compound input options:
+1. Display the tire compound input options:
 - 's' for Soft
 - 'm' for Medium
 - 'h' for Hard
 
-Prompt the user to input a tire compound.
-Read in the user's choice character.
+2. Prompt the user to input a tire compound.
+3. Read in the user's choice character.
 
-Prompt the user to input the number of laps in the race.
-Read in the user's input.
+4. Prompt the user to input the number of laps in the race.
+5. Read in the user's input.
 
-If compound is 's' or 'S':
-    lapsPerCompound = 10;
-If compound is 'm' or 'M':
-    lapsPerCompound = 20;
-If compound is 'h' or 'H':
-    lapsPerCompound = 30;
-If compound is none of those:
-    Display error message and exit the program
+6.  If compound is 's' or 'S':
+7.      lapsPerCompound = 10;
+8.  If compound is 'm' or 'M':
+9.      lapsPerCompound = 20;
+10. If compound is 'h' or 'H':
+11.     lapsPerCompound = 30;
+12. If compound is none of those:
+13.     Display error message and exit the program.
 
-numSets = ceil( lapsInRace / lapsPerCompound )
+14. numSets = ceil( lapsInRace / lapsPerCompound )
 
-Display the number of sets of tires required for the race.
+15. Display the number of sets of tires required for the race.

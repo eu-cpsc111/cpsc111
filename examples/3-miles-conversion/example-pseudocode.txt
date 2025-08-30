@@ -1,7 +1,6 @@
-Prompt user to input a number of miles and read in their response.
-Compute equivalent feet, meters, and inches:
-    feet = miles * FEET_PER_MILE
-    meters = miles * METERS_PER_MILE
-    inches = miles * INCHES_PER_MILE
-
-Print out the result of the conversion.
+1. Prompt user to input a number of miles.
+2. Read in user's response.
+3. Compute equivalent feet = miles * FEET_PER_MILE.
+4. Compute equivalent meters = miles * METERS_PER_MILE.
+5. Compute equivalent inches = miles * INCHES_PER_MILE.
+6. Print out the result of the conversion.
