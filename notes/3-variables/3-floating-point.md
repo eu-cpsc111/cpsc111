@@ -1,6 +1,6 @@
 # Floating Point
 
-<style>
+<!-- <style>
     /* initialise the counter */
     body { counter-reset: figureCounter; }
     /* increment the counter for every instance of a figure even if it doesn't have a caption */
@@ -10,7 +10,7 @@
         content: "Example " counter(figureCounter) ":";
         font-size: 8pt;
     }
-</style>
+</style> -->
 
 ## Data types
 
