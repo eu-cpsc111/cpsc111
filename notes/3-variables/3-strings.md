@@ -26,7 +26,7 @@ You can assign a number directly to a character if you want:
 
 ```cpp
 char c = 90; // 'Z'
-cout << x << endl;
+cout << c << endl;
 ```
 
 _Note:_ A more advanced encoding is called [Unicode](https://en.wikipedia.org/wiki/Unicode). Unicode supports many languages, symbols, and emojis.
