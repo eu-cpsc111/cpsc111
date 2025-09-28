@@ -160,7 +160,7 @@ int x = y % 3;    // If result is 0, then y is divisible by 3
 
 ### Exercises
 
-1. Determine what the value of `x` is after each of these individual statements are executed.
+1. Determine what the value of `x` is after each of these individual statements are executed. Assume `y` is equal to `2`.
 
 - `int x = y * 4 / 2;`
 - `int x = y * (4 / 2);`
@@ -180,13 +180,12 @@ int x = y % 3;    // If result is 0, then y is divisible by 3
 
 2. What are the values of `x` and `y` after the following code executes?
 
-    ```cpp
-    int x = 19;
-    int y = 9;
-    y = x % y;
-    ```
+   ```cpp
+   int x = 19;
+   int y = 9;
+   y = x % y;
+   ```
 
 3. Write a program that reads integers `userNum` and `divNum` as input, and outputs `userNum` divided by `divNum` three times. Note: end with a newline.
 
-    For example, if the input is `2000 2`, the output should be `1000 500 250`.
-
+   For example, if the input is `2000 2`, the output should be `1000 500 250`.
