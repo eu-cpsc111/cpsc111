@@ -81,7 +81,7 @@ else {
 }
 ```
 
-2. What is the value of `x` after the following code executes?
+2. What is the value of `y` after the following code executes?
 
 ```cpp
 int x = 10;
@@ -98,4 +98,10 @@ bool b = (x < 5) && (y >= 8);
 
 ```cpp
 bool b = (x + 2 == 9) || (x == 5);
+```
+
+4. If `x` is 2, what is the value of `y` after the following code executes?
+
+```cpp
+y = !(12 < 5 || 3 <= 5 && 3 > x) ? 7 : 9;
 ```
