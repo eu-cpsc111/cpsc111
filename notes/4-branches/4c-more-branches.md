@@ -151,3 +151,37 @@ else {
     cout << "End" << endl;
 }
 ```
+
+5. What is output by the following code?
+
+```cpp
+bool ready = true;
+if (ready)
+    cout << "Go" << endl;
+else
+    cout << "Stop" << endl;
+    cout << "End" << endl;
+```
+
+6. What is output by the following code?
+
+```cpp
+bool ready = true;
+if (ready)
+    cout << "ABC" << endl;
+    cout << "DEF" << endl;
+else
+    cout << "Stop" << endl;
+```
+
+7. What is output by the following code?
+
+```cpp
+bool ready = true;
+if (ready) {
+    cout << "ABC" << endl;
+    cout << "DEF" << endl;
+}
+else
+    cout << "Stop" << endl;
+```
