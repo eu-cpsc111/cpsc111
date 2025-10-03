@@ -216,6 +216,29 @@ case 3:
 4. What is the value of `x` after the following code executes?
 
 ```cpp
+char k = 'x';
+
+switch (k)
+{
+    case 'z':
+    case 'Z':
+        cout << "Z or z";
+        break;
+
+    case 'X':
+        cout << "X";
+
+    case 'x':
+        cout << "x";
+        break;
+}
+
+cout << "END";
+```
+
+5. What is the value of `x` after the following code executes?
+
+```cpp
 int x = 2;
 switch (x)
 {
@@ -233,7 +256,7 @@ case 4:
 }
 ```
 
-5. Rewrite the following switch statement into an if..else if statement.
+6. Rewrite the following switch statement into an if..else if statement.
 
 ```cpp
 int x = 5;
