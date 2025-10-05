@@ -44,7 +44,6 @@ y = x + 1;
 // DON'T:
 
 x = 25;   y = x + 1;
-if (x == 5) { y = 14; }
 ```
 
 Use **four** _spaces_ for indentation. _Tip: enable showing whitespace in your text editor (Visual Studio [example](https://stackoverflow.com/questions/6255839/show-space-tab-crlf-characters-in-editor-of-visual-studio))._
@@ -288,13 +287,9 @@ Brief description of the function.
 int DoTheThing(int param1, int param2);
 ```
 
-## EditorConfig
+## ClangFormat and Clang-Tidy
 
-Most text editors support [EditorConfig](https://editorconfig.org/) as a way to automatically apply style preferences to text documents. Assignment repositories in this course come with an `.editorconfig` file containing rules that align to the course guidelines. These are very useful, but not exhaustive, so attention must still be paid to ensure code aligns with style guidelines.
-
-When using Visual Studio, a document format command can be triggered by opening the **Feature Search** window using `Ctrl` + `Q`, then searching for the **Format Document** command. Other editors may have their own formatting features.
-
-For a list of C++ EditorConfig properties, see [here](https://learn.microsoft.com/en-us/visualstudio/ide/cpp-editorconfig-properties?view=vs-2019).
+Some programming assignments in this course support tools to help you automatically format your code. These assignments include configuration files for these tools to align with the style guidelines listed above. In Visual Studio Code you can enable formatting the document automatically when you save the file.
 
 ## Additional Reading
 
