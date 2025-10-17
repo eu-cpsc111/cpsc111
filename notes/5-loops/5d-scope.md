@@ -69,9 +69,9 @@ int main()
     int a = 0;
 
     {
-        int b = 1;
+        int b = 1;           // <-- Start of `b` variable's scope
         cout << b << endl;
-    }
+    }                        // <-- End of `b` variable's scope
 
     cout << a << endl;
     cout << b << endl; // Compiler error - variable b out of scope
