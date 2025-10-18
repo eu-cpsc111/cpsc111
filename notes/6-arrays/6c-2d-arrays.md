@@ -96,3 +96,22 @@ for (int col = 0; col < NUM_COLS; col++) {
 ```
 
 - Access to the element is done the same way in each: `grid[row][col]`.
+
+## Exercises
+
+1. Use the code below to answer the following questions.
+
+```cpp
+int array2d[6][3];
+int j, k;
+for (j = 0; j < 6; ++j)
+    for (k = 0; k < 3; ++k)
+        array2d[j][k] = (j + 1) * (k + 1);
+```
+
+- How many rows and columns does this array have?
+- What is the value of `array2d[0][0]`?
+- What is the value of `array2d[2][1]`?
+- What is the value of `array2d[3][2]`?
+- Is this array being processed in row-major or column-major order?
+- Write a loop that processes the array in the opposite order.

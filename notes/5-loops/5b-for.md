@@ -190,7 +190,16 @@ for (int i = 0; i < 4; ++i) {
 }
 ```
 
-3. What is output by the following code? Pay attention to brace placement (or lack thereof).
+3. What is the value of `x` after the following code executes?
+
+```cpp
+int x = 5;
+for (int i = 0; i < 5; ++i) {
+    x -= i;
+}
+```
+
+4. What is output by the following code? Pay attention to brace placement (or lack thereof).
 
 ```cpp
 for (int i = 0; i <= 3; ++i)
@@ -198,7 +207,7 @@ for (int i = 0; i <= 3; ++i)
 cout << "done";
 ```
 
-4. What is wrong with the following code? Pay careful attention to the semicolons!
+5. What is wrong with the following code? Pay careful attention to the semicolons!
 
 ```cpp
 for (int i = 1; i < 4; ++i);
@@ -206,7 +215,7 @@ for (int i = 1; i < 4; ++i);
 cout << "done";
 ```
 
-5. The following code has no syntax errors, but there is still a problem. What is it?
+6. The following code has no syntax errors, but there is still a problem. What is it?
 
 ```cpp
 int num = 3;
@@ -215,7 +224,7 @@ while (num <= 10);
 cout << num;
 ```
 
-6. What is output by the following code?
+7. What is output by the following code?
 
 ```cpp
 int x = 10;

@@ -226,3 +226,20 @@ while (num < 14) {
 
 cout << "Done";
 ```
+
+5. What is the result after the following code executes?
+
+```cpp
+for (int i = 0; i < 10; i++) {
+    cout << i << endl;
+    break;
+}
+```
+
+6. What is the result after the following code executes?
+
+```cpp
+for (int i = 0; i < 10; i++) {
+    i--;
+}
+```

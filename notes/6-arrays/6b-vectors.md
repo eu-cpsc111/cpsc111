@@ -202,3 +202,19 @@ vector<int> vect = { 0, 1, 2, 3, 4 };
 - What is the result of `vect[2]`?
 - What is the result of `vect.at(10)`?
 - What is the result of `vect[10]`?
+
+4. Assume the following code has just been executed:
+
+```cpp
+vector<int> vect(5);
+vect.at(0) = 3;
+vect.at(3) = vect.at(0) + 1;
+vect.at(4) = vect.at(3) - 1;
+```
+
+- What is the result of `vect.size()`?
+- What is the result of `vect.back()`?
+- What is the result of `vect.at(0)`?
+- What is the result of `vect.at(1)`?
+- What is the result of `vect.at(4)`?
+- What is the result of `vect.at(5)`?

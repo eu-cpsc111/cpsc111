@@ -166,3 +166,45 @@ for (int i = 0; i < NUM_PLAYERS; i++) {
     getline(cin, playerNames[i]);
 }
 ```
+
+## Exercises
+
+1. Use the code below to answer the following questions.
+
+```cpp
+string colors[4] = { "red", "green", "orange", "purple" };
+```
+
+- What does `cout << colors[2];` print to standard output?
+- How would you print the last color in the list to standard output?
+- How would you print the first color in the list to standard output?
+- How would you replace "orange" with "yellow"?
+- How could you use a named constant to specify the number of colors?
+
+2. Use the code below to answer the following questions.
+
+```cpp
+int points[50];
+```
+
+- How many elements does this array declaration allocate?
+- Write code that initializes all elements in the `points` array to 0.
+- Write code that initializes all elements in the `points` array to 10.
+- How would you change the value of the element at index 5 to be 100?
+- Write a `cout` statement that prints the value of that last element in the array.
+- Write a loop that finds the largest value in the `points` array and stores it in a variable.
+
+3. What is the value of x[3] after the following code executes?
+
+```cpp
+int x[5];
+
+for (int i = 2; i <= 6; ++i) {
+    if (i == 2) {
+        x[i - 2] = 10;
+    }
+    else {
+        x[i - 2] = x[i - 3] + i;
+    }
+}
+```
