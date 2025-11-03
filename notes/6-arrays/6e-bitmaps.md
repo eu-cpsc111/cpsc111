@@ -89,3 +89,9 @@ Save using the `stb_image` library:
 // Save as bmp image file
 stbi_write_bmp("image.bmp", IMAGE_WIDTH, IMAGE_HEIGHT, BYTES_PER_PIXEL, pixels);
 ```
+
+Make sure to include `stb_image_write.h` to get access to this function:
+
+```cpp
+#include "stb_image_write.h"
+```
