@@ -201,3 +201,21 @@ int main()
     cout << u << ' ' << v << endl;
 }
 ```
+
+3. In the following function, which parameters can be modified by the `Go` function? Which parameters cannot be modified?
+
+```cpp
+bool Go(vector<float>& items, const vector<int>& numbers, bool& success)
+{
+    // ...
+}
+```
+
+4. Complete the following C++ function. The function accepts a vector of items. The function must reverse the order of the items in the vector.
+
+```cpp
+void Reverse(vector<int>& items)
+{
+    // TODO
+}
+```
