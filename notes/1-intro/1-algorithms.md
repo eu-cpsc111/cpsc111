@@ -1,5 +1,9 @@
 # Algorithms
 
+[Slides](https://docs.google.com/presentation/d/191FW8b7SCZkyPtxW5WzInHZDPaxl9xnb-6vBOn9NPho/edit?usp=sharing)
+
+## Introduction
+
 Computer science: solving problems with computers.
 
 - Input -> Instructions -> Output
@@ -30,6 +34,18 @@ How efficient an algorithm can be visualized with a graph (see slides).
 - Option 1 is $n$ (linear). Add 10 pages, 10 more pages you may have to check.
 - Option 2 is $n/2$ (but still linear). Add 10 pages, 5 more pages you may have to check.
 - Option 3 is $log_2n$ (logarithmic). Problem size keeps being cut in half each iteration.
+
+## Flow Charts
+
+A visual way of documenting an algorithm.
+
+Three main components:
+
+- Start/end blocks
+- Instruction/function blocks
+- Conditions/branches
+
+(See example in slides.)
 
 ## Pseudocode
 
