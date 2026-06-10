@@ -3,8 +3,13 @@
 
 @import "{{ site.theme }}";
 
+body {
+  padding: 25px;
+}
+
 header {
   float: none;
+  margin-bottom: 16px;
   position: relative;
   width: auto;
 }
