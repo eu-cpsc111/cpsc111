@@ -1,1 +1,3 @@
-remote_theme: "jekyll/minima@c6e74bb"
+theme: jekyll-theme-minimal
+title: CPSC 111
+description: Introduction to Computer Science
