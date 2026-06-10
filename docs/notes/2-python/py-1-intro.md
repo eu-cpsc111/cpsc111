@@ -168,7 +168,7 @@ You will **commit** your changes using Git and **push** them to GitHub.
 
 Use the **Source Control** panel in VS Code to view your changes.
 
-<img src="../img/git.png" width=300 />
+<img src="./img/git.png" width=300 />
 
 Type a description of your changes in the message box. Then click **Commit**.
 
@@ -180,7 +180,7 @@ If prompted, click **Yes** to stage all changes.
 
 You also risk losing your changes if your Codespace is deleted.
 
-<img src="../img/git-sync.png" width=300 />
+<img src="./img/git-sync.png" width=300 />
 
 Click the **Sync Changes** button to push your changes to GitHub.
 
@@ -198,44 +198,44 @@ Ensure the automated tests pass.
 
 1. What is output (i.e., what is displayed) by the following code?
 
-```python
-print(10 * 20)
-```
+   ```python
+   print(10 * 20)
+   ```
 
-2. What is output by the following code?
+1. What is output by the following code?
 
-```python
-print("Hello")
-print("world")
-print("!")
-```
+   ```python
+   print("Hello")
+   print("world")
+   print("!")
+   ```
 
-3. What is output by the following code?
+1. What is output by the following code?
 
-```python
-print("Welcome to", "Evangel", "   University   " + "!")
-```
+   ```python
+   print("Welcome to", "Evangel", "   University   " + "!")
+   ```
 
-4. What is output by the following code?
+1. What is output by the following code?
 
-```python
-print("Welcome to",       "Evangel",        "University!")
-```
+   ```python
+   print("Welcome to",       "Evangel",        "University!")
+   ```
 
-5. What is output by the following code?
+1. What is output by the following code?
 
-```python
-print("'Nice to meet you', she said.")
-```
+   ```python
+   print("'Nice to meet you', she said.")
+   ```
 
-6. What is output by the following code?
+1. What is output by the following code?
 
-```python
-print('Do I "look the part"?')
-```
+   ```python
+   print('Do I "look the part"?')
+   ```
 
-7. What is wrong with this code?
+1. What is wrong with this code?
 
-```python
-print(The cake is a lie)
-```
+   ```python
+   print(The cake is a lie)
+   ```
