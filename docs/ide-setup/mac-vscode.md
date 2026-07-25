@@ -1,8 +1,12 @@
 # Visual Studio Code on macOS
 
+**Note:** CPSC 111 uses GitHub Codespaces for all programming activities. The Codespaces for the course are preconfigured with any necessary tools.
+
+The instructions here describe installing the tools to develop code on your own computer. Students are encouraged to try this out if they are interested, but this is not required for any course work.
+
 ## Install Clang
 
-Visual Studio Code (often abbreviated VS Code) does not come with a C++ compiler built in. A separate C++ compiler must be installed. For this course, we will use Clang.
+Visual Studio Code (often abbreviated VS Code) does not come with a C/C++ compiler built in. A separate C/C++ compiler must be installed. We recommend you use Clang.
 
 To get Clang, install the Xcode command line developer tools. To do this, open a terminal window and enter:
 

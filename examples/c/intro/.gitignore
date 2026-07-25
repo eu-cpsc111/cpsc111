@@ -1,0 +1,6 @@
+# Visual Studio generated folder
+.vs/
+
+# Visual Studio uses "out", others use "build"
+build/
+out/
